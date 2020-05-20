@@ -1,0 +1,382 @@
+*{
+	padding:0;margin:0;box-sizing: border-box;outline: none;
+}
+
+header{
+	width:100%;
+	height:100vh;
+	background-image: url("man-and-woman-holding-battle-ropes-1552242.jpg");
+	background-size:cover;
+	color:white; 
+}
+.top{
+	width:100%;
+	height:10vh;
+	padding:0px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.logo-tab{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.tab{
+	display: none;
+}
+.logo h3{
+	font-variant: small-caps;
+	font-weight: 400;
+	
+}
+.logo h3:first-letter{
+	font-size:50px;
+}
+#menu{
+	width:60%;
+	text-transform: capitalize;
+}
+#menu ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	
+}
+#menu ul li a{
+	font-weight:lighter;
+	padding:2px 3px;
+	cursor: pointer;
+	width:20%;
+	margin-left: 2px;
+}
+#menu ul li a:link{
+	color:white;
+	
+	text-decoration: none;
+}
+#menu ul li a:hover{
+	color:red;
+	
+}
+@media only screen and (max-width:600px)
+{
+	.top{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		position: relative;
+	}
+	.tab{
+		display: block;
+	}
+	#menu{
+		top:70px;
+		position: absolute;
+		width:100%;
+		display: none;
+	}
+	#menu ul{
+		display: flex;
+		
+		text-align: center;
+		margin:10px 0px;
+	}
+	
+}
+main{
+	height:90vh;
+	width:100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	word-spacing: 1.5px;
+	letter-spacing: 1.2px;
+}
+.main_text{
+	text-align: center;
+}
+.main_text h2{
+	text-transform: uppercase;
+	margin:10px 0px;
+}
+.main_text h4{
+	font-weight: lighter;
+	color:gray;
+}
+.main_text a{
+	text-decoration: none;
+}
+.btn1,.btn2{
+	
+	text-transform: capitalize;
+	
+	padding:5px 10px;
+}
+.btn1,.btn2{border:1px solid red;
+	color:white;
+}
+.btn1:hover,.btn2:hover{
+	color:red;
+	background: white;
+}
+@media only screen and (max-width:600px)
+{
+	.main_text p{
+		font-size: 18px;
+	}
+	.main_text h2{
+		font-size:16px;
+	}
+}
+.second_header{
+	width:100%;
+	height:60vh;
+	background: black;
+}
+.aboutus{
+	margin:0px auto;
+	color:white;
+	height:60vh;
+	width:80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.btw{
+	width:1px;
+	height:50%;
+	border-left:1px solid grey;
+}
+.left_aboutus,.right_aboutus{
+	width:45%;
+	
+}
+.left_aboutus h2{
+	text-transform: capitalize;
+}
+.left_aboutus p{
+	margin:10px 0px;
+}
+.membership{
+	color:lightcoral;
+}
+.left_aboutus a{
+	
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding:5px 8px;
+	background: red;
+	text-decoration: none;
+	color:white;
+	text-transform:uppercase;
+}
+.btn3:hover{
+	background: white;
+	color:red;
+	transition: 0.5s;
+}
+.right_aboutus h2{
+	text-transform: uppercase;
+	font-size:20px;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+.right_aboutus p{
+	font-size:15px;
+	margin:1px 0px 5px 0px;
+	color:grey;
+}
+.right_aboutus h4{
+	font-size:18px;
+	text-transform: capitalize;
+}
+.right_aboutus h3{
+	font-size:18px;
+	text-transform: uppercase;
+}
+.table_area{
+	background: green;
+	padding-top:50px;
+	background:#001;
+	color:#fff;
+	display: flex;
+	justify-content: space-around;
+	width:100%;
+}
+.workout_detail{
+	margin-top:50px;;
+	width:90%;
+	
+	text-align: center;
+}
+.workout_detail p{
+	color:grey;
+	font-variant: small-caps;
+}
+.workout_detail h4{
+	font-variant: small-caps;
+}
+.workout_detail h4:first-letter{
+	font-size:32px;
+}
+table{
+	width:100%;
+	margin:5% auto;
+	box-sizing: border-box;
+	border-collapse: collapse;
+	overflow-x:scroll;
+}
+th,td{
+	border:1px solid grey;
+	padding:10px 4px;
+}
+th{
+	text-transform:uppercase;
+	background: red;
+	width:12%;
+}
+td h4{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: 100;
+}
+td p{
+font-size:12px;
+}
+@media only screen and (max-width:600px)
+{
+	.table-area{
+		width:80%;
+		margin: 0px auto;	
+		
+	}
+	.menu{
+		display:;
+	}
+	.workout_detail{
+		width:100%;
+		overflow-x: scroll;;
+	}
+	table{
+		
+	background: green;
+	width:100%;
+	border-collapse: collapse;
+}
+th,td{
+	border:1px solid grey;
+	padding:5px 2px;
+}
+th{
+	text-transform:uppercase;
+	background: red;
+	
+}
+td h4{
+	text-transform: capitalize;
+	font-size: 12px;
+	font-weight: 200;
+}
+td p{
+font-size:12px;
+}
+}
+
+
+.contact_detail{
+	width:100%;
+	background-color:firebrick;
+	
+}
+.contact{
+	width:90%;
+	padding-top:50px;
+	margin:0px auto;
+	display: flex;
+	justify-content:space-around; 
+	align-items: center;
+}
+.contact_form,.contact_area{
+	width:40%;
+	text-align: center;
+}
+.contact_area iframe{
+	width:80%;
+	
+}
+.contact_form h4{
+	text-transform: capitalize;
+	text-align: center;
+}
+.contact_form input{
+	width:90%;
+	display: block;
+	margin:5px 0px;
+	padding:5px 4px;
+	border-radius: 7px;
+	border-style: solid;
+	font-size:12px;
+	border:0.3px solid black;
+}
+.contact_area{
+	width:80%;
+	
+}
+.msg{
+	margin-top:50px;
+	text-transform: uppercase;
+	background: white;
+	color:red;
+	font-weight:500;
+	border:0.3px solid black;
+}
+.msg:hover{
+	background: red;
+	color:white;
+	transition:0.5s;
+}
+@media only screen and (max-width:600px)
+{
+	.contact-detail{
+		width: 100%;
+	
+	}
+	.contact{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.contact_form,.contact_area{
+		padding:10px 0px;
+		margin:20px 0px;
+		width:90%;
+		
+		
+	}
+	form{
+		
+		
+		width: 100%;
+	}
+	.contact_form input{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

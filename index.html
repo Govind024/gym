@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>gym</title>
+		<meta name="viewport" content="width=device-width,inital-scale=1.0">
+		
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<header>
+		<div class="top">
+			<div class="logo-tab">
+			<div class="logo"><h3>gymso fitness</h3></div>
+				<div class="tab">
+					<button onclick="menuop()">toggle</button>
+				</div>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a herf="#">home</a></li>
+					<li><a herf="#about_us">about us</a></li>
+					<li><a herf="#">classes</a></li>
+					<li><a herf="#">schedules</a></li>
+					<li><a herf="#">contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<main>
+			<div class="main_text">
+			<h4>new way to build a healthy lifestyle!</h4>
+			<h2>upgrade your body at<br>gymso fitness</h2>
+			<a href="#" class="btn1">get started</a>
+			<a href="#" class="btn2">learn more</a>
+			</div>
+		</main>
+	</header>
+	<div class="second_header" id="about_us">
+	<div class="aboutus" >
+	<div class="left_aboutus">
+	<h2>new to the gymso?</h2>	
+	<p class="membership">your membership is up to 2 months free ($62.50per month)</p>
+	<p>
+	we provide all the traning kit with the professional trainer which help you alots.	
+	</p>
+		<a href="#" class="btn3">become a member today</a>
+	</div>
+		<div class="btw"></div>
+		<div class="right_aboutus">
+		<h2>working hour</h2>
+		<h4>sunday : open</h4>
+		<p>9:00 AM - 12:00PM</p>
+		<h4>monday - fridar</h4>
+		<p>6:00 AM - 8:00PM</p>
+		<h3>saturday - closed</h3>
+		</div>
+	</div>
+	</div>
+<!--//////////////workout table////////-->
+	<div class="table_area">
+		<div class="workout_detail">
+			<p>our weekly gym schedules</p>
+		<h4>workout timetable</h4>
+		<table>
+		<tr>
+		<th>time\day</th>	
+		<th>mon</th>	
+		<th>tue</th>	
+		<th>wed</th>	
+		<th>thu</th>	
+		<th>fri</th>	
+		<th>sun</th>	
+		</tr>
+		<tr>
+		<th>7:00AM</th>
+		<td><h4>cardio</h4><p>7:00AM - 9:00AM</p></td>
+		<td><h4>power fitness</h4><p>7:00AM - 9:00AM</p></td>
+		<td></td>
+		<td></td>
+		<td><h4>yoga section</h4><p>7:00AM--9:00AM</p></td>
+		<td></td>
+		</tr>
+		<tr>
+		<th>9:00AM</th>
+		<td></td>
+		<td></td>
+		<td><h4>boxing</h4><p>9:00AM - 11:00AM</p></td>
+		<td><h4>areobic</h4><p>9:00AM - 11:00AM</p></td>
+		<td></td>
+		<td><h4>cardio</h4><p>9:00AM - 11:00AM</p></td>
+		</tr>
+		<tr>
+		<th>11:00AM</th>
+		<td></td>
+		<td><h4>boxing</h4><p>11:00AM - 2:00AM</p></td>
+		<td><h4>areobic</h4><p>11:00AM - 2:00AM</p></td>
+		<td></td>
+		<td><h4>body work</h4><p>11:00AM - 2:00AM</p></td>
+		<td></td>
+		</tr>
+		<tr>
+		<th>2:00PM</th>
+		<td><h4>boxing</h4><p>2:00PM - 4:00PM</p></td>
+		<td><h4>power lifting</h4><p>2:00PM - 4:00PM</p></td>
+		<td></td>
+		<td><h4>cardio</h4><p>2:00PM - 4:00PM</p></td>
+		<td></td>
+		<td><h4>cross lift</h4><p>2:00PM - 4:00PM</p></td>
+		</tr>
+		</table>
+		</div>
+	</div>
+
+	<div class="contact_detail">
+		<div class="contact">
+			<div class="contact_form">
+		<h4>feel free to ask anything</h4>	
+			<form>
+			<input type="text" placeholder="name">
+			<input type="email" placeholder="email">
+			<input type="text" placeholder="message" height:100px>
+				<input type="submit" value="send message" class="msg">
+			</form>
+		</div>
+		<div class="contact_area">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.3523850097913!2d84.0162277141112!3d24.95412274764479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398db0b4e5e49f43%3A0xf060c8c2ff1c5086!2sSingh%20Brothers!5e0!3m2!1sen!2sin!4v1587923985222!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+			</div>
+		</div>
+		
+		<script>
+		function menuop()
+			{
+		var m=document.getElementById('menu');
+	
+		if(m.style.display == "none")
+			m.style.display = "block";
+		else
+			m.style.display = "none";
+			}
+		
+		</script>
+		
+</body>
+</html>
